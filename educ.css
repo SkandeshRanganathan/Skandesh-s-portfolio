@@ -1,0 +1,152 @@
+html{
+
+    zoom: 80%;
+}
+
+body{
+    background-color: rgb(88, 145, 105);
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+}
+#Main{
+    text-align: center;
+}
+.navbar ul{
+    list-style: none;
+    background-color: rgb(15, 15, 16,0.5);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.navbar a{
+    color: #f8efef;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    color: blanchedalmond;
+    
+}
+.navbar a:hover{
+    background-color: rgb(0, 255, 38);
+    transition: 400ms all ease-in;
+    border-radius: 10px;
+    box-shadow: 0 0 6px;
+    color: black;
+}
+.navbar li{
+    float: left;
+}
+.navbar{
+    display: inline;
+    
+}
+#div{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+    margin-left: 120px;
+    
+    
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    flex-direction: column;
+    border: 10px solid white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 50px;
+    background: linear-gradient(30deg,pink,rgb(11, 11, 84));
+   
+
+}
+.insta:hover{
+    transition: 400ms;
+    transform: scale(1.5);
+    box-shadow: 0 0 60px;
+}
+.twitter:hover{
+    transition: 400ms;
+    transform: scale(1.5);
+    background-color: rgb(241, 238, 235);
+    box-shadow: 0 0 60px;
+}
+.linkedin:hover{
+    transition: 400ms;
+    transform: scale(1.5);
+    box-shadow: 0 0 60px;
+}
+.comments{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    height: 100px;
+    width: 100%;
+}
+.comment{
+    display: flex;
+    justify-content: center;
+}
+.forms{
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 10px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(30deg,pink,rgb(2, 2, 99));
+    color: black;
+
+}
+.comment{
+    box-shadow: -20px -20px 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 900px;
+    margin-bottom: 50px; 
+}
+.name{
+    box-shadow: -10px -10px 10px;
+}
+.mail{
+    box-shadow: -10px -10px 10px;
+}
+.home{
+    background-image: url(home-icon-vector.jpg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    
+}
+.home:hover{
+    transition: 400ms all ease-in-out;
+    transform: scale(1.5);
+}
+@media screen and (max-width:768px) {
+    .comment{
+        box-shadow: -20px -20px 10px;
+        border-radius: 10px;
+        width: 70%;
+    }
+    
+}

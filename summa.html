@@ -1,0 +1,184 @@
+<div class="container">
+    <div class="skill-box">
+        <span class="title">HTML</span>
+        <div class="skill-bar">
+            <span class="skill-per html">
+                <span class="tooltip">90%</span>
+            </span>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="container">
+    <div class="skill-box">
+        <span class="title">CSS</span>
+        <div class="skill-bar">
+            <span class="skill-per css">
+                <span class="tooltip">70%</span>
+            </span>
+        </div>
+    </div>
+</div><br>
+<div class="container">
+    <div class="skill-box">
+        <span class="title">Python</span>
+        <div class="skill-bar">
+            <span class="skill-per python ">
+                <span class="tooltip">60%</span>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="skill-box">
+        <span class="title">JAVA-SCRIPT</span>
+        <div class="skill-bar">
+            <span class="skill-per javascript">
+                <span class="tooltip">30%</span>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+
+<style>
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4070f4;
+
+}
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-left: 100px;
+   
+    
+}
+.skill-box{
+    width: 100%;
+    margin: 25px 0;
+}
+.title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.skill-bar{
+    width: 100%;
+    background: rgba(0,0,0,0,1);
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.skill-per{
+     position: relative;
+     display: block;
+     height: 100%;
+     width: 90%;
+     background: #4070f4;
+     border-radius: 6px;
+     animation: progress 0.4s ease-in-out forwards;
+     opacity: 0;
+}
+.skill-per.css{
+    width: 70%;
+}
+.skill-per.python{
+    width: 60%;
+}
+.skill-per.javascript{
+     width: 30%;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    100%{
+      
+        opacity: 1; 
+    }
+}
+.tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #4070f4;
+    z-index: 1;
+}
+.tooltip::before{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    content: '';
+    bottom: -2px;
+    background-color: #4070f4;
+    transform: translateX(-50%) rotate(45deg); 
+    left: 50%;
+    z-index: -1;
+}
+.navbar ul{
+    list-style: none;
+    background-color: greenyellow;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+
+}
+
+.navbar a{
+    color: brown;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: aqua;
+    transition: 400ms all ease-in;
+    padding: 10px;
+}
+.navbar li{
+    float: left;
+}
+.navbar{
+    display: inline;
+    
+}
+#div{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+</style>
+<div>
+    <nav class="navbar">
+        <div id="div">
+        <ul>
+            <li><a href = "pers.html">Academics</a></li>
+            <li><a href = "education.html">Personal</a></li>
+            <li><a href = "skills.html">Skills</a></li>
+            <li><a href = "projects.html">Projects</a></li>
+        </ul></div>
+    </nav>
+</div>

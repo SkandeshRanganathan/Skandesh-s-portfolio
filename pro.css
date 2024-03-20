@@ -1,0 +1,192 @@
+html{
+
+    zoom: 80%;
+}
+
+
+.navbar ul{
+    list-style: none;
+    background-color: rgb(9, 9, 9,0.5);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    color: antiquewhite;
+    border-radius: 10px;
+
+
+}
+
+.navbar a{
+    color: rgb(248, 240, 240);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+   
+}
+.navbar a:hover{
+    background-color: rgb(224, 252, 10);
+    transition: 400ms all ease-in;
+    border-radius: 10px;
+    color: black;
+    
+}
+.navbar li{
+    float: left;
+}
+.navbar{
+    display: inline;
+    
+}
+#div{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+body{
+    background-color: rgb(17, 176, 250);
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+
+}
+.maincont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    height: 600px;
+    width: 600px;
+    
+}
+.subcont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://dimensionless.in/wp-content/uploads/2018/12/projects-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 600px;
+    margin: 50 50 50 50;
+    border-radius: 50px;
+    border: 10px solid white;
+    border-radius: 10px;
+    
+    
+    box-shadow: 0 0 60px;
+
+}
+.pro1{
+    height: 70px;
+    width: 300px;
+    border-radius: 50px;
+    border-color: antiquewhite;
+    color: rgb(233, 231, 229);
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.subcont1:hover{
+    transition: 400ms all ease-in-out;
+    transform: scale(1.4);
+
+}
+.pro1:hover{
+    background-color: black;
+    color: antiquewhite;
+    transition: 400ms all ease-in-out;
+    transform: scale(1.4);
+    
+
+}
+.subcont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://dimensionless.in/wp-content/uploads/2018/12/projects-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 600px;
+    margin: 50 50 50 50;
+    border-radius: 50px;
+    border-color: antiquewhite;
+    box-shadow: 0 0 60px;
+    border: 10px solid white;
+    border-radius: 10px;
+
+}
+.pro2{
+    height: 70px;
+    width: 300px;
+    border-radius: 50px;
+    border-color: antiquewhite;
+    color: rgb(246, 243, 240);
+    background-color: rgb(9, 9, 8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.subcont2:hover{
+    transition: 400ms all ease-in-out;
+    transform: scale(1.4);
+
+}
+.pro2:hover{
+    background-color: black;
+    color: antiquewhite;
+    transition: 400ms all ease-in-out;
+    transform: scale(1.4);
+
+}
+
+.home{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+   top: 70px;
+   left: 30px;
+   
+    border-color: antiquewhite;
+    
+    
+}
+.home:hover{
+    color: antiquewhite;
+    transition: 400ms all ease-in-out;
+    transform: scale(1.4);
+
+}
+.veedu{
+    box-shadow: 0 0 60px;
+    border: 10px solid rgb(15, 14, 14);
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+
+}
+.maincont{
+    
+    border-radius: 10px;
+    height: 500px;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 50px;
+}
+.heading{
+    margin-left: 800px;
+}
+@media screen and (max-width:1080px){
+    .heading{
+        margin-left: 550px;
+    }
+}
+@media screen and (max-width:768px){
+    .heading{
+        margin-left: 350px;
+    }
+}
+

@@ -1,0 +1,219 @@
+html{
+
+    zoom: 80%;
+}
+
+body{
+  
+   background-position: center;
+   background-image: url('pexels-pixabay-416920.jpg');
+   background-size: 1440 988;
+   background-repeat: no-repeat;
+   
+}
+.h1{
+    text-align: center;
+}
+
+.h3{
+    text-align: center;
+    font-size: larger;
+}
+table {
+    border-collapse: separate;
+    width:700px;
+    margin-left:20px;
+    border-radius: 5px;
+    margin-bottom:30px;
+    border-color: cadetblue;
+  }
+  th,td {
+    text-align:center;
+    padding:15px;
+    border-radius: 5px;
+    border-color: cadetblue;  
+    }
+  tr:nth-child(even){
+    background-color:rgb(1, 13, 43) ;
+  }
+  tr:nth-child(odd){
+    background-color:rgb(16, 9, 44);
+  }
+.div1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    font-weight: 600px;
+    font-style: bold;
+    font-size: larger;
+    height: 500px;
+    width: 750px;
+    overflow: scroll;
+    overflow-x: none;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+
+
+.container{
+    margin-left: 30px;
+    display: block;
+    justify-content: left;
+    margin-top: 10px;
+    font-weight: 600px;
+    font-style: bold;
+    font-size: larger;
+
+}
+.div2{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    font-weight: 600px;
+    font-style: bold;
+    font-size: larger;
+}
+.div3{
+    margin-left: 30px;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    font-weight: 600px;
+    font-style: bold;
+    font-size: larger;
+}
+.navbar ul{
+    list-style: none;
+    background-color: rgb(13, 13, 13,0.5);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    
+}
+.navbar a{
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    
+}
+.navbar a:hover{
+    background-color: rgb(117, 6, 111);
+    transition: 400ms all ease-in;
+    border-radius: 10px;
+    
+
+}
+.navbar li{
+    align-items: center;
+    float: left;
+}
+.navbar{
+    display: inline;
+    
+}
+.nav2{
+    align-items: center;
+}
+.nav{
+    justify-content: center;
+}
+#div{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    
+}
+.marktable{
+    text-decoration: none;
+}
+.p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 8px solid black;
+    border-radius: 5px;
+}
+.p1:hover{
+    transition: 400ms all;
+    background-color: antiquewhite;
+    border: 10px solid black;
+    border-radius: 5px;
+    transform: scale(1.0);
+}
+sup{
+    text-decoration: none;
+}
+.amrita{
+    text-decoration: none;
+}
+.p1:hover{
+    background-color: beige;
+    transition: 400ms all ease-in-out;
+    color: black;
+}
+.para{
+    margin-left: 100px;
+    font-weight: bolder;
+        font-size: 30px;
+
+}
+.home{
+    background-image: url(home-icon-vector.jpg);
+    height: 100px;
+    width: 100px;
+    margin-top: -330px;
+    margin-left: 30px;
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 50px;
+    position: absolute;
+    
+}
+.home:hover{
+    transition: 400ms all ease-in-out;
+    transform: scale(1.5);
+}
+@media screen and (max-width:1080px) {
+    .p1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        border: 8px solid black;
+        border-radius: 5px;
+        font-weight: bolder;
+    }
+    .para{
+        margin-left: 0px;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .para {
+        margin-left: -57px;
+        font-weight: bolder;
+        font-size: 20px;
+        width: 1019px;
+        margin-right: 524px;
+        margin-top: 0px;
+    }
+    .p1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        border: 8px solid black;
+        border-radius: 5px;
+        font-weight: bolder;
+        margin-top: 80px;
+    }
+    .h1{
+        font-size: 30px;
+    }
+}
