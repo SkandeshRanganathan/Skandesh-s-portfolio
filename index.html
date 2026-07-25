@@ -1,43 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="style.css">
-    <link rel="icon"  type="jpg" href="PHOTO-2024-01-04-19-46-38.jpg" >
-    <title >Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Skandesh Goutham Ranganathan J — Software Development Engineer" />
+  <title>Skandesh | Software Engineer</title>
+  
+  <!-- Favicon updated to profile photo -->
+  <link rel="icon" type="image/jpeg" href="Skandesh Goutham Ranganathan.jpeg" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body  background="academic wall paper.webp" >
-    <h1 id="Main" style="color: rgb(245, 240, 240); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ">Skandesh's Portfolio</h1>
-    <div>
-        <nav class="navbar">
-            <div id="div">
-            <ul>
-                <li><a href = "pers.html">BIOGRAPHY</a></li>
-                <li><a href = "education.html">CONTACT</a></li>
-                <li><a href = "skills.html">SKILLS</a></li>
-                <li><a href = "projects.html">PROJECTS</a></li>
-            </ul></div>
-        </nav>
-    </div>
-    <div class="profile"></div>  
-    <div class="container">
-        <p class="name">J.SKANDESH RANGANATHAN</p>
-        <p class="saketh">FULL STACK DEVELOPER</p>
-        
-        <div class="line">
+<body>
 
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">Skandesh Goutham Ranganathan J</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="Skandesh Goutham Ranganathan J_Doc (5).pdf" class="nav-cv-btn" target="_blank">Download Resume</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-status">Available for Software Engineering Roles</div>
+      <h1 class="hero-name reveal">Skandesh Goutham<br>Ranganathan J</h1>
+      <p class="hero-title reveal">Software Development Engineer</p>
+      <p class="hero-description reveal">
+        I architect and build scalable digital solutions, bridging complex backend logic with elegant frontend experiences. Passionate about software engineering, system design, and AI integration.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="profile-img-container">
+        <!-- Replaced with the user's photo -->
+        <img src="Skandesh Goutham Ranganathan.jpeg" alt="Skandesh Goutham Ranganathan J" class="profile-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-tag">Who I Am</div>
+      <h2 class="section-title reveal">About Me</h2>
+      
+      <div class="about-content reveal">
+        <p>
+          I am a driven Software Development Engineer currently pursuing my Bachelor of Technology in Computer Science at Amrita Vishwa Vidyapeetham. I thrive on solving complex problems and turning ideas into robust, production-ready software.
+        </p>
+        <p>
+          My approach to software engineering is rooted in building resilient systems. Whether it's developing secure RESTful APIs, architecting cross-chain binding mechanisms, or creating seamless user interfaces, I prioritize writing clean, maintainable, and highly optimized code.
+        </p>
+        <p>
+          Beyond traditional web development, I am deeply interested in integrating AI and machine learning models to solve real-world problems. When I'm not coding, I'm exploring new technologies, enhancing system efficiencies, and continually expanding my technical horizons.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-tag">Technical Expertise</div>
+      <h2 class="section-title reveal">My Skills</h2>
+      <p class="section-subtitle reveal">A comprehensive overview of the languages, frameworks, and tools I use to build software.</p>
+      
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h3>Languages</h3>
+          <div class="skill-list">
+            <div class="skill-item">Python</div>
+            <div class="skill-item">C</div>
+            <div class="skill-item">Java</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">HTML / CSS</div>
+            <div class="skill-item">SQL</div>
+          </div>
         </div>
-        <a href="education.html"><button class="contact"> FOR CONTACT </button></a>
-        <a href="Skandesh Goutham Ranganathan J1.docx"><button class="CV">DOWNLOAD CV</button></a>
         
+        <div class="skill-category reveal">
+          <h3>Frameworks</h3>
+          <div class="skill-list">
+            <div class="skill-item">FastAPI</div>
+            <div class="skill-item">Node.js / Express.js</div>
+            <div class="skill-item">React.js</div>
+            <div class="skill-item">TensorFlow</div>
+            <div class="skill-item">Flask</div>
+          </div>
+        </div>
+        
+        <div class="skill-category reveal">
+          <h3>Tools & Platforms</h3>
+          <div class="skill-list">
+            <div class="skill-item">Git & GitHub</div>
+            <div class="skill-item">AWS Cloud</div>
+            <div class="skill-item">PostgreSQL / MySQL</div>
+            <div class="skill-item">Docker</div>
+            <div class="skill-item">Kali Linux</div>
+            <div class="skill-item">Postman</div>
+            <div class="skill-item">Cisco Packet Tracer</div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3>Core Concepts</h3>
+          <div class="skill-list">
+            <div class="skill-item">Data Structures & Algorithms</div>
+            <div class="skill-item">RSA & SHA-256 Cryptography</div>
+            <div class="skill-item">JWT Authentication</div>
+            <div class="skill-item">REST APIs</div>
+            <div class="skill-item">Computer Networks</div>
+            <div class="skill-item">Cloud Computing</div>
+          </div>
+        </div>
+      </div>
     </div>
-   
-</div>
+  </section>
 
-</div>  
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-tag">Case Studies</div>
+      <h2 class="section-title reveal">Key Projects</h2>
+      <p class="section-subtitle reveal">Selected projects showcasing my expertise in full-stack development, security, and AI integration.</p>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">SecureChain</h3>
+            <div class="project-links">
+              <a href="https://github.com/SkandeshRanganathan/SecureChain" target="_blank" title="View Source">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            Architected a cybersecurity platform for digital evidence custody using Dual-Chain Hashing (DCH-IV) to ensure 100% integrity without blockchain overhead. Engineered a cross-chain binding mechanism with RBAC and JWT authentication, reducing verification latency by 40%.
+          </p>
+          <div class="project-tech">
+            <span class="tech-chip">FastAPI</span>
+            <span class="tech-chip">PostgreSQL</span>
+            <span class="tech-chip">SHA-256</span>
+          </div>
+        </div>
 
-    
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">Vault: AI Financial Mgmt</h3>
+            <div class="project-links">
+              <a href="https://github.com/SkandeshRanganathan/Vault" target="_blank" title="View Source">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            Developed a full-stack financial application featuring automated tracking and a regression-based engine to forecast spending with 91% accuracy. Integrated Penny, a conversational AI assistant that increased engagement by 90% and reduced budget overruns.
+          </p>
+          <div class="project-tech">
+            <span class="tech-chip">Flask</span>
+            <span class="tech-chip">Python</span>
+            <span class="tech-chip">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">OfferCred: Cert Verification</h3>
+            <div class="project-links">
+              <a href="https://github.com/SkandeshRanganathan/offercred_20999" target="_blank" title="View Source">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            Built an RSA-signature platform that authenticated 200+ certificates and successfully blocked fraud attempts using custom validation logic. Implemented Bcrypt and JWT-based security protocols, resulting in a 99% reduction in unauthorized access incidents.
+          </p>
+          <div class="project-tech">
+            <span class="tech-chip">Node.js</span>
+            <span class="tech-chip">Express</span>
+            <span class="tech-chip">PostgreSQL</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <h3 class="project-title">Cloud Load Forecaster</h3>
+            <div class="project-links">
+              <a href="https://github.com/SkandeshRanganathan/cloud-load-forecaster" target="_blank" title="View Source">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            Engineered a hybrid VM placement framework processing 10k+ data points, achieving 92% forecasting accuracy to optimize cloud resources. Enhanced system energy efficiency by 15% using Dueling Deep Q-Network (DQN) agents for dynamic load balancing.
+          </p>
+          <div class="project-tech">
+            <span class="tech-chip">Python</span>
+            <span class="tech-chip">TensorFlow</span>
+            <span class="tech-chip">LSTM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE / EDUCATION ===== -->
+  <section id="experience">
+    <div class="section-inner">
+      <div class="section-tag">Background</div>
+      <h2 class="section-title reveal">Experience & Education</h2>
+      <p class="section-subtitle reveal">Academic foundation, research publications, and professional development.</p>
+      
+      <div class="timeline">
+        
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Aug 2023 — May 2027</div>
+          <div class="timeline-title">Amrita Vishwa Vidyapeetham</div>
+          <div class="timeline-subtitle">Bachelor of Technology in Computer Science</div>
+          <div class="timeline-desc">
+            Current CGPA: 8.29. Based in Chennai, India. Pursuing rigorous coursework in software engineering, data structures, and computer networks.
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Research & Publications</div>
+          <div class="timeline-title">NeuroBridge - AI Mental Health Crisis Detection</div>
+          <div class="timeline-desc">
+            Proposed a federated AI system for real-time crisis detection using multi-device behavioral drift analysis.
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Research & Publications</div>
+          <div class="timeline-title">Autonomous Vehicle Security</div>
+          <div class="timeline-desc">
+            Analyzed vulnerabilities in autonomous systems and proposed software-based defenses against ethical hacking.
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-date">Certifications</div>
+          <div class="timeline-title">Professional Development</div>
+          <div class="timeline-desc">
+            <strong>AWS Academy Graduate:</strong> Cloud architecture and storage.<br>
+            <strong>Cisco Networking Basics:</strong> TCP/IP & connectivity troubleshooting.<br>
+            <strong>NPTEL Cloud Computing & Ethical Hacking:</strong> Virtualization & penetration testing in Kali Linux.<br>
+            <strong>Coursera Machine Learning:</strong> Supervised/Unsupervised Learning & Model Tuning.<br>
+            <strong>Forage Industry Simulations:</strong> AWS Solutions Architecture & Deloitte Data Analytics.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-tag">Reach Out</div>
+      <h2 class="section-title reveal">Let's Connect</h2>
+      
+      <div class="contact-container">
+        <div class="contact-info reveal">
+          <p class="contact-text">
+            I'm currently looking for new opportunities in software engineering. Whether you have a question, a proposal, or just want to say hi, I'll try my best to get back to you!
+          </p>
+          <div class="social-links">
+            <a href="mailto:skandeshranganathan@gmail.com" class="social-link">
+              ✉️ skandeshranganathan@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/skandesh-ranganathan-61a6542b4/" target="_blank" class="social-link">
+              💼 LinkedIn Profile
+            </a>
+            <a href="https://github.com/SkandeshRanganathan" target="_blank" class="social-link">
+              🐙 GitHub Profile
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2024 Skandesh Goutham Ranganathan J. Crafted with code.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
